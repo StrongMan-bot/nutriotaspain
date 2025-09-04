@@ -1,0 +1,47 @@
+{
+  "title": "What customers say",
+  "testimonials": [
+    {
+      "name": "angela c.",
+      "gender": "female",
+      "title": "Real royal jelly",
+      "quote": "I love bees and so I decided to rely on them to fight my low energy. I opened the bottle and immediately smelled its sweet scent and was happy about it. I've been taking it for a few days now and I have to say that the difference is noticeable. I'm less tired. The product is ok and I won't abandon it easily. Excellent shipping and small capsules easy to swallow."
+    },
+    {
+      "name": "Gabriella Longega",
+      "gender": "male",
+      "title": "Excellent for keeping fit",
+      "quote": "Well packaged product. Capsules easy to swallow. I use it constantly to improve immune defenses."
+    },
+    {
+      "name": "soul.food",
+      "gender": "female",
+      "title": "Recommended",
+      "quote": "Recommended. Before buying this product I took a much more expensive supplement with echinacea daily for about a year, for about 4 months I've chosen this cheaper one with only echinacea. In the past 6/7 years I caught every seasonal illness (and I don't have children who going to school can bring home flu and colds). This winter I spent it unscathed. Be patient! Being a natural product it needs time, and I mean several months."
+    },
+    {
+      "name": "wolf",
+      "gender": "male",
+      "title": "Echinacea great quality",
+      "quote": "I've been buying them for years now and I take one every morning. Excellent product that preserves me a lot from seasonal illnesses. Very good quality price. Highly recommended. Sometimes I let myself be convinced by promo discounts but I always came back."
+    },
+    {
+      "name": "RICCARDO HEUSCH",
+      "gender": "male",
+      "title": "Vitamin B6",
+      "quote": "Excellent quality price ratio. The tablets even if a bit large are easily swallowable. Being a supplement it takes time to evaluate its benefits."
+    },
+    {
+      "name": "Feciale Massimo",
+      "gender": "male",
+      "title": "Vitamins",
+      "quote": "The product met my expectations, and arrived within the expected times."
+    },
+    {
+      "name": "roberto gasparri",
+      "gender": "male",
+      "title": "Excellent product",
+      "quote": "Convenient in easily swallowable capsules and easy to give even to my children when they are a bit tired during the change of season. A month of treatment is enough and iron levels in the blood rise immediately. For me instead I use it regularly before and after my period to compensate for the lowering of iron levels and limit tiredness. I've been using it for a long time and I find it really effective."
+    }
+  ]
+}
