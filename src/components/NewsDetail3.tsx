@@ -14,92 +14,92 @@ const NewsDetail3 = () => {
     id: 3,
     title: t('title'),
     description: t('description'),
-    image: "/images/NewsDetail3.jpg",
+    image: "/images/NewsDetail3.webp",
     date: t('date'),
     category: t('category'),
     author: t('author'),
     readTime: t('readTime'),
-    content: i18n.language === 'it' ? `
-      <h3>La Molecola Rivoluzionaria Anti-Aging di Cui il Tuo Medico Non Parla</h3>
-      <p>Gli scienziati la chiamano "l'antiossidante universale". Gli esperti di bellezza sussurrano sui suoi poteri trasformanti per la pelle. Ma la maggior parte delle persone non ha mai sentito parlare di questa fontana della giovinezza cellulare che si nasconde in piena vista.</p>
+    content: i18n.language === 'sp' ? `
+      <h3>La Molécula Anti-Envejecimiento Revolucionaria de la que tu Médico no Habla</h3>
+      <p>Los científicos la llaman "el antioxidante universal". Los expertos en belleza susurran sobre sus poderes transformadores para la piel. Pero la mayoría de las personas nunca ha oído hablar de esta fuente de juventud celular que se esconde a plena vista.</p>
 
-      <h3>La Scoperta che Cambia Tutto</h3>
-      <p>Mentre spendi centinaia di euro in creme e trattamenti che agiscono solo in superficie, c'è una molecola che lavora a livello più profondo - i tuoi mitocondri - per rallentare effettivamente l'invecchiamento dall'interno.</p>
+      <h3>El Descubrimiento que Cambia Todo</h3>
+      <p>Mientras gastas cientos de euros en cremas y tratamientos que solo actúan en la superficie, hay una molécula que trabaja a un nivel más profundo - tus mitocondrias - para ralentizar efectivamente el envejecimiento desde adentro.</p>
 
-      <h4>Acido Alfa Lipoico (ALA): Il Protettore Cellulare Universale</h4>
-      <p>Gli effetti anti-invecchiamento di questo antiossidante naturale sintetizzato nei tessuti umani hanno attirato un interesse crescente negli ultimi anni. Ma ecco cosa lo rende straordinario: è sia idrosolubile che liposolubile, il che significa che può proteggere ogni singola cellula del tuo corpo.</p>
+      <h4>Ácido Alfa Lipoico (ALA): El Protector Celular Universal</h4>
+      <p>Los efectos anti-envejecimiento de este antioxidante natural sintetizado en tejidos humanos han atraído un interés creciente en los últimos años. Pero aquí está lo que lo hace extraordinario: es tanto hidrosoluble como liposoluble, lo que significa que puede proteger cada célula de tu cuerpo.</p>
 
-      <h3>Perché la Tua Pelle Invecchia Più Velocemente del Dovuto</h3>
-      <p>Ogni giorno, le tue cellule sono sotto attacco da:</p>
+      <h3>Por qué tu Piel Envejece Más Rápido de lo que Debería</h3>
+      <p>Cada día, tus células están bajo ataque de:</p>
       <ul>
-        <li><strong>Radicali liberi</strong> da inquinamento, stress e raggi UV</li>
-        <li><strong>Glicazione</strong> - quando le molecole di zucchero danneggiano il tuo collagene</li>
-        <li><strong>Infiammazione</strong> che degrada i tessuti sani</li>
-        <li><strong>Stress ossidativo</strong> che accelera l'invecchiamento cellulare</li>
+        <li><strong>Radicales libres</strong> de contaminación, estrés y rayos UV</li>
+        <li><strong>Glicación</strong> - cuando las moléculas de azúcar dañan tu colágeno</li>
+        <li><strong>Inflamación</strong> que degrada los tejidos sanos</li>
+        <li><strong>Estrés oxidativo</strong> que acelera el envejecimiento celular</li>
       </ul>
 
-      <h3>L'Effetto Macchina del Tempo Cellulare</h3>
-      <p>L'Acido Alfa Lipoico non neutralizza solo un tipo di radicale libero - è come avere una chiave master che sblocca la protezione per ogni parte della tua cellula:</p>
+      <h3>El Efecto Máquina del Tiempo Celular</h3>
+      <p>El Ácido Alfa Lipoico no solo neutraliza un tipo de radical libre - es como tener una llave maestra que desbloquea la protección para cada parte de tu célula:</p>
       <ul>
-        <li><strong>Ricicla Altri Antiossidanti</strong> - Riporta in vita vitamina C, vitamina E e glutatione</li>
-        <li><strong>Protegge i Tuoi Mitocondri</strong> - Le centrali elettriche delle tue cellule rimangono giovani ed energetiche</li>
-        <li><strong>Previene la Glicazione</strong> - Impedisce allo zucchero di creare Prodotti Finali della Glicazione Avanzata (AGEs) che accelerano l'invecchiamento</li>
-        <li><strong>Riduce l'Infiammazione</strong> - Calma l'infiammazione cronica che ti invecchia dall'interno</li>
+        <li><strong>Recicla Otros Antioxidantes</strong> - Revive la vitamina C, vitamina E y glutatión</li>
+        <li><strong>Protege tus Mitocondrias</strong> - Las centrales eléctricas de tus células permanecen jóvenes y energéticas</li>
+        <li><strong>Previene la Glicación</strong> - Impide que el azúcar cree Productos Finales de Glicación Avanzada (AGEs) que aceleran el envejecimiento</li>
+        <li><strong>Reduce la Inflamación</strong> - Calma la inflamación crónica que te envejece desde adentro</li>
       </ul>
 
-      <h3>La Trasformazione Visibile</h3>
-      <p>Entro poche settimane con livelli ottimali di ALA, le persone notano:</p>
+      <h3>La Transformación Visible</h3>
+      <p>Dentro de pocas semanas con niveles óptimos de ALA, las personas notan:</p>
       <ul>
-        <li>Pelle che brilla con un alone sano che non vedevano da anni</li>
-        <li>Riduzione delle rughe sottili mentre i meccanismi di riparazione cellulare si attivano</li>
-        <li>Colorito più uniforme grazie alla guarigione dei danni infiammatori</li>
-        <li>Miglioramento della texture grazie alla protezione avanzata del collagene</li>
+        <li>Piel que brilla con un resplandor saludable que no habían visto en años</li>
+        <li>Reducción de arrugas finas mientras los mecanismos de reparación celular se activan</li>
+        <li>Coloración más uniforme gracias a la curación de daños inflamatorios</li>
+        <li>Mejora en la textura gracias a la protección avanzada del colágeno</li>
       </ul>
 
-      <h3>Oltre la Bellezza: Il Reset Totale del Corpo</h3>
-      <p>Le proprietà anti-invecchiamento dell'ALA vanno ben oltre la pelle:</p>
+      <h3>Más Allá de la Belleza: El Reset Total del Cuerpo</h3>
+      <p>Las propiedades anti-envejecimiento del ALA van mucho más allá de la piel:</p>
       <ul>
-        <li><strong>Energia Potenziata</strong> - I tuoi mitocondri diventano più efficienti, dandoti la vitalità di qualcuno più giovane</li>
-        <li><strong>Maggiore Chiarezza Mentale</strong> - Cellule cerebrali protette significano migliore concentrazione e memoria</li>
-        <li><strong>Recupero Migliorato</strong> - Il tuo corpo si riprende più velocemente da stress ed esercizio</li>
-        <li><strong>Migliore Controllo della Glicemia</strong> - L'ALA aiuta le tue cellule a utilizzare il glucosio più efficacemente</li>
+        <li><strong>Energía Potenciada</strong> - Tus mitocondrias se vuelven más eficientes, dándote la vitalidad de alguien más joven</li>
+        <li><strong>Mayor Claridad Mental</strong> - Células cerebrales protegidas significan mejor concentración y memoria</li>
+        <li><strong>Recuperación Mejorada</strong> - Tu cuerpo se recupera más rápido del estrés y ejercicio</li>
+        <li><strong>Mejor Control del Azúcar en Sangre</strong> - El ALA ayuda a tus células a usar la glucosa más efectivamente</li>
       </ul>
 
-      <h3>La Ricerca che Ne Dimostra l'Efficacia</h3>
-      <p>Studi recenti hanno dimostrato che l'ALA può agire sulle infezioni virali modulando parametri biochimici, virologici, immunologici e neurologici. Ma è nella ricerca anti-invecchiamento che le cose si fanno davvero eccitanti.</p>
+      <h3>La Investigación que Demuestra su Eficacia</h3>
+      <p>Estudios recientes han demostrado que el ALA puede actuar en infecciones virales modulando parámetros bioquímicos, virológicos, inmunológicos y neurológicos. Pero es en la investigación anti-envejecimiento donde las cosas se ponen realmente emocionantes.</p>
 
-      <h4>Le Basi Scientifiche</h4>
-      <p>L'ALA è un acido grasso a catena corta contenente zolfo presente nei mitocondri di tutti i tipi di cellule eucariotiche, e sia la forma ossidata che quella ridotta forniscono una potente protezione contro i danni cellulari legati all'età.</p>
+      <h4>Las Bases Científicas</h4>
+      <p>El ALA es un ácido graso de cadena corta que contiene azufre presente en las mitocondrias de todos los tipos de células eucariotas, y tanto la forma oxidada como la reducida proporcionan una protección poderosa contra el daño celular relacionado con la edad.</p>
 
-      <h3>Gli Acceleratori dell'Età Cellulare che Ti Stanno Attaccando in Questo Momento</h3>
-      <p>Ogni secondo, le tue cellule sono sotto assedio da un esercito invisibile di acceleratori dell'età:</p>
+      <h3>Los Aceleradores de la Edad Celular que te Están Atacando en este Momento</h3>
+      <p>Cada segundo, tus células están bajo asedio de un ejército invisible de aceleradores de la edad:</p>
       <ul>
-        <li><strong>Assalto dei Radicali Liberi</strong> - Queste molecole instabili rubano elettroni alle tue cellule sane</li>
-        <li><strong>Attacco di Glicazione</strong> - Le molecole di zucchero si legano a proteine come il collagene</li>
-        <li><strong>Fuoco Infiammatorio</strong> - L'infiammazione cronica di basso livello brucia attraverso il tuo corpo come un fuoco lento</li>
-        <li><strong>Decadimento Mitocondriale</strong> - Le tue centrali elettriche cellulari perdono gradualmente efficienza</li>
+        <li><strong>Asalto de Radicales Libres</strong> - Estas moléculas inestables roban electrones a tus células sanas</li>
+        <li><strong>Ataque de Glicación</strong> - Las moléculas de azúcar se unen a proteínas como el colágeno</li>
+        <li><strong>Fuego Inflamatorio</strong> - La inflamación crónica de bajo nivel quema a través de tu cuerpo como un fuego lento</li>
+        <li><strong>Decaimiento Mitocondrial</strong> - Tus centrales eléctricas celulares pierden gradualmente eficiencia</li>
       </ul>
 
-      <h3>Gli Standard di Qualità che Contano</h3>
-      <p>L'industria degli integratori è inondata da prodotti ALA di qualità inferiore che non forniscono risultati. Ecco cosa cercare:</p>
+      <h3>Los Estándares de Calidad que Importan</h3>
+      <p>La industria de suplementos está inundada de productos ALA de calidad inferior que no proporcionan resultados. Aquí está qué buscar:</p>
       <ul>
-        <li><strong>R-Acido Alfa Lipoico</strong> - Questa è la forma naturalmente presente che il tuo corpo utilizza effettivamente</li>
-        <li><strong>Formulazione Stabilizzata</strong> - L'ALA puro è instabile e si degrada rapidamente</li>
-        <li><strong>Dosaggio Corretto</strong> - La ricerca supporta 300-600mg giornalieri per benefici anti-invecchiamento</li>
-        <li><strong>Test di Terze Parti</strong> - Il tuo ALA dovrebbe essere testato per purezza e potenza da un laboratorio indipendente</li>
+        <li><strong>R-Ácido Alfa Lipoico</strong> - Esta es la forma naturalmente presente que tu cuerpo realmente usa</li>
+        <li><strong>Formulación Estabilizada</strong> - El ALA puro es inestable y se degrada rápidamente</li>
+        <li><strong>Dosificación Correcta</strong> - La investigación apoya 300-600mg diarios para beneficios anti-envejecimiento</li>
+        <li><strong>Pruebas de Terceros</strong> - Tu ALA debería ser probado para pureza y potencia por un laboratorio independiente</li>
       </ul>
 
-      <h3>La Sfida della Giovinezza di 90 Giorni</h3>
+      <h3>El Desafío de la Juventud de 90 Días</h3>
       <ul>
-        <li><strong>Mese 1: Le Fondamenta</strong> - Le tue difese antiossidanti cellulari si rafforzano</li>
-        <li><strong>Mese 2: I Cambiamenti Visibili</strong> - La pelle inizia a apparire più luminosa e liscia</li>
-        <li><strong>Mese 3: La Trasformazione</strong> - Gli effetti cumulativi diventano innegabili</li>
+        <li><strong>Mes 1: Los Fundamentos</strong> - Tus defensas antioxidantes celulares se fortalecen</li>
+        <li><strong>Mes 2: Los Cambios Visibles</strong> - La piel comienza a verse más brillante y suave</li>
+        <li><strong>Mes 3: La Transformación</strong> - Los efectos acumulativos se vuelven innegables</li>
       </ul>
 
-      <h3>Non Lasciare che il Tempo Vinca</h3>
-      <p>Ogni giorno che passa senza livelli ottimali di ALA è un altro giorno di invecchiamento cellulare incontrollato. Ma hai più controllo sul tuo processo di invecchiamento di quanto tu abbia mai immaginato.</p>
+      <h3>No Dejes que el Tiempo Gane</h3>
+      <p>Cada día que pasa sin niveles óptimos de ALA es otro día de envejecimiento celular descontrolado. Pero tienes más control sobre tu proceso de envejecimiento de lo que jamás imaginaste.</p>
 
-      <p>La fontana della giovinezza non è una sorgente mitica - è la rigenerazione cellulare che sta avvenendo nei tuoi mitocondri in questo momento. Dalle il vantaggio dell'ALA e scopri cosa si prova a ringiovanire.</p>
+      <p>La fuente de la juventud no es un manantial mítico - es la regeneración celular que está ocurriendo en tus mitocondrias en este momento. Dale la ventaja del ALA y descubre cómo se siente rejuvenecer.</p>
     ` : `
       <h3>The Age-Reversing Molecule Your Doctor Isn't Telling You About</h3>
       <p>Scientists call it "the universal antioxidant." Beauty gurus whisper about its skin-transforming powers. But most people have never heard of the cellular fountain of youth hiding in plain sight.</p>

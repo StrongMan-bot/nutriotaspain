@@ -9,44 +9,34 @@ const BestSellers = () => {
 
   const bestSellerProducts = [
     {
-      id: 5,
-      name: "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
-      price: "€29.90",
-      image: "https://m.media-amazon.com/images/I/61GtNp-NvGL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      link: "https://www.amazon.it/dp/B081D2SPVF",
-      rating: 4.5,
-      reviews: "650+ " + t('products.ratings'),
-      category: t('products.supplements')
-    },
-    {
       id: 1,
-      name: "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
-      price: "€23.79",
-      image: "https://m.media-amazon.com/images/I/61OkL2nfd2L._AC_SX679_.jpg",
-      link: "https://www.amazon.it/dp/B0C8G7Y1D6",
-      rating: 4.5,
-      reviews: "300+ " + t('products.ratings'),
-      category: t('products.minerals')
-    },
-    {
-      id: 4,
-      name: "Nutriota Propolis | 1000 mg (180 Capsules)",
-      price: "€17.79",
-      image: "https://m.media-amazon.com/images/I/617gq7K4abL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      link: "https://www.amazon.it/dp/B08TB387M9",
-      rating: 4.3,
-      reviews: "200+ " + t('products.ratings'),
-      category: t('products.supplements')
-    },
-    {
-      id: 7,
-      name: "Nutriota Echinacea | 500 mg (240 Tablets)",
-      price: "€19.79",
-      image: "https://m.media-amazon.com/images/I/61330aWtIEL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      link: "https://www.amazon.it/dp/B09PNK3GRH",
+      name: "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
+      price: "€16.99",
+      image: "https://m.media-amazon.com/images/I/61PyhQAGXDL._AC_SX679_.jpg",
+      link: "https://www.amazon.es/dp/B09NXNVBHZ",
       rating: 4.5,
       reviews: "150+ " + t('products.ratings'),
-      category: t('products.herbalSupplements')
+      category: t('products.supplements')
+    },
+    {
+      id: 2,
+      name: "Nutriota Propolis | 1000 mg (180 Tablets)",
+      price: "€16.99",
+      image: "https://m.media-amazon.com/images/I/615c8u9DpSL._AC_SX679_.jpg",
+      link: "https://www.amazon.es/dp/B09FFFSX3K",
+      rating: 4.4,
+      reviews: "150+ " + t('products.ratings'),
+      category: t('products.supplements')
+    },
+    {
+      id: 3,
+      name: "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
+      price: "€16.99",
+      image: "https://m.media-amazon.com/images/I/616nEDc2B6L._AC_SX679_.jpg",
+      link: "https://www.amazon.es/dp/B0DCZJDCKH",
+      rating: 4.4,
+      reviews: "30+ " + t('products.ratings'),
+      category: t('products.minerals')
     }
   ];
 

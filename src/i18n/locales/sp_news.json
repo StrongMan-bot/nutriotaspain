@@ -1,0 +1,47 @@
+{
+  "title": "Últimas noticias de salud y actualizaciones",
+  "subtitle": "Mantente actualizado con los mejores consejos de bienestar, descubrimientos de salud y formas simples de sentirse mejor cada día",
+  "readFullStory": "Leer la historia completa",
+  "backToNews": "Volver a la página principal de noticias",
+  "discoverMore": "Descubre más consejos de salud y artículos de bienestar",
+  "articles": {
+    "article1": {
+      "title": "Tu energía desaparece y ni siquiera sabes por qué: La crisis oculta de las vitaminas B",
+      "description": "¿Estás constantemente cansado? ¿La niebla mental te golpea como un camión? Tu cuerpo podría estar pidiendo ayuda. Descubre la crisis oculta de las vitaminas B que está drenando tu energía y cómo solucionarla.",
+      "category": "Energía y Bienestar",
+      "date": "15 de diciembre de 2024"
+    },
+    "article2": {
+      "title": "El secreto subterráneo que cada atleta de élite conoce (pero no te dirá)",
+      "description": "Mientras luchas con una recuperación lenta y progresos estancados, los profesionales usan esta simple fórmula de 3 ingredientes para liberar su potencial genético.",
+      "category": "Rendimiento",
+      "date": "12 de diciembre de 2024"
+    },
+    "article3": {
+      "title": "La molécula anti-envejecimiento revolucionaria de la que tu médico no habla",
+      "description": "Descubre los poderosos beneficios anti-envejecimiento del ácido alfa-lipoico (ALA) - el antioxidante universal que actúa a nivel celular para ralentizar el envejecimiento desde adentro.",
+      "category": "Anti-Envejecimiento",
+      "date": "15 de enero de 2025"
+    },
+    "article4": {
+      "title": "Magnesio: El super-mineral que la mayoría de las personas no consume lo suficiente",
+      "description": "¡La mitad de todas las personas no consume suficiente magnesio! Este mineral importante te ayuda a dormir mejor, mantiene tus músculos funcionando y te da más energía. Descubre si necesitas más magnesio.",
+      "category": "Fundamentos nutricionales",
+      "date": "28 de diciembre de 2024"
+    },
+    "article5": {
+      "title": "Por qué la vitamina B1 (tiamina) es esencial para el metabolismo energético",
+      "description": "La vitamina de la energía de la que nadie habla (¡pero debería!) ¿Te sientes agotado a mitad del día? Antes de tomar el próximo café, hablemos de la vitamina que podría cambiar para siempre tu juego energético: la vitamina B1, también conocida como tiamina.",
+      "category": "Investigación de salud",
+      "date": "02 de septiembre de 2025"
+    },
+    "article6": {
+      "title": "Vitamina B6: La \"vitamina del estado de ánimo\"",
+      "description": "La vitamina de la felicidad que se esconde. ¿Y si hubiera una vitamina que controla directamente qué tan feliz, calmado y equilibrado te sientes cada día? Conoce la vitamina B6—el héroe no celebrado de tu bienestar mental.",
+      "category": "Salud mental",
+      "date": "15 de junio de 2025"
+    }
+  }
+}
+
+

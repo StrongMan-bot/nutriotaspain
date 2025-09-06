@@ -1,0 +1,24 @@
+{
+  "title": "Aprende y Noticias",
+  "subtitle": "Descubre perspectivas prácticas sobre el bienestar y mantente actualizado con los últimos descubrimientos de la ciencia nutricional",
+  "readMore": "Leer más",
+  "articles": [
+    {
+      "title": "Tu energía desaparece y ni siquiera sabes por qué: La crisis oculta de las vitaminas B",
+      "snippet": "¿Estás constantemente cansado? ¿La niebla mental te golpea como un camión? Descubre la crisis oculta de las vitaminas B que está drenando tu energía y cómo solucionarla.",
+      "category": "Energía y Bienestar"
+    },
+    {
+      "title": "El secreto subterráneo que cada atleta de élite conoce (pero no te dirá)",
+      "snippet": "Mientras luchas con una recuperación lenta y progresos estancados, los profesionales usan esta simple fórmula de 3 ingredientes para liberar su potencial genético.",
+      "category": "Rendimiento"
+    },
+    {
+      "title": "La molécula anti-envejecimiento revolucionaria de la que tu médico no habla",
+      "snippet": "Descubre los poderosos beneficios anti-envejecimiento del ácido alfa-lipoico (ALA) - el antioxidante universal que actúa a nivel celular.",
+      "category": "Anti-Envejecimiento"
+    }
+  ]
+}
+
+

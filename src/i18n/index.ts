@@ -2,74 +2,56 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import it from './locales/it.json';
+import sp from './locales/sp.json';
 import en from './locales/en.json';
-import it_products from './locales/it_products.json';
+import sp_products from './locales/sp_products.json';
 import en_products from './locales/en_products.json';
-import it_news from './locales/it_news.json';
+import sp_news from './locales/sp_news.json';
 import en_news from './locales/en_news.json';
-import it_news0 from './locales/it_news0.json';
+import sp_news0 from './locales/sp_news0.json';
 import en_news0 from './locales/en_news0.json';
-import it_news1 from './locales/it_news1.json';
+import sp_news1 from './locales/sp_news1.json';
 import en_news1 from './locales/en_news1.json';
-import it_news2 from './locales/it_news2.json';
+import sp_news2 from './locales/sp_news2.json';
 import en_news2 from './locales/en_news2.json';
-import it_news3 from './locales/it_news3.json';
+import sp_news3 from './locales/sp_news3.json';
 import en_news3 from './locales/en_news3.json';
-import it_news4 from './locales/it_news4.json';
+import sp_news4 from './locales/sp_news4.json';
 import en_news4 from './locales/en_news4.json';
-import it_news5 from './locales/it_news5.json';
+import sp_news5 from './locales/sp_news5.json';
 import en_news5 from './locales/en_news5.json';
-import it_news6 from './locales/it_news6.json';
+import sp_news6 from './locales/sp_news6.json';
 import en_news6 from './locales/en_news6.json';
-import it_testimonial from './locales/it_testimonial.json';
+import sp_testimonial from './locales/sp_testimonial.json';
 import en_testimonial from './locales/en_testimonial.json';
-import it_learnnews from './locales/it_learnnews.json';
+import sp_learnnews from './locales/sp_learnnews.json';
 import en_learnnews from './locales/en_learnnews.json';
 
 // Import product translation files
-import it_product1 from './locales/it_product1.json';
+import sp_product1 from './locales/sp_product1.json';
 import en_product1 from './locales/en_product1.json';
-import it_product2 from './locales/it_product2.json';
+import sp_product2 from './locales/sp_product2.json';
 import en_product2 from './locales/en_product2.json';
-import it_product3 from './locales/it_product3.json';
+import sp_product3 from './locales/sp_product3.json';
 import en_product3 from './locales/en_product3.json';
-import it_product4 from './locales/it_product4.json';
-import en_product4 from './locales/en_product4.json';
-import it_product5 from './locales/it_product5.json';
-import en_product5 from './locales/en_product5.json';
-import it_product6 from './locales/it_product6.json';
-import en_product6 from './locales/en_product6.json';
-import it_product7 from './locales/it_product7.json';
-import en_product7 from './locales/en_product7.json';
-import it_product8 from './locales/it_product8.json';
-import en_product8 from './locales/en_product8.json';
-import it_product9 from './locales/it_product9.json';
-import en_product9 from './locales/en_product9.json';
 
 const resources = {
-  it: {
-    translation: it,
-    products: it_products,
-    news: it_news,
-    news0: it_news0,
-    news1: it_news1,
-    news2: it_news2,
-    news3: it_news3,
-    news4: it_news4,
-    news5: it_news5,
-    news6: it_news6,
-    testimonial: it_testimonial,
-    learnnews: it_learnnews,
-    product1: it_product1,
-    product2: it_product2,
-    product3: it_product3,
-    product4: it_product4,
-    product5: it_product5,
-    product6: it_product6,
-    product7: it_product7,
-    product8: it_product8,
-    product9: it_product9
+  sp: {
+    translation: sp,
+    products: sp_products,
+    news: sp_news,
+    news0: sp_news0,
+    news1: sp_news1,
+    news2: sp_news2,
+    news3: sp_news3,
+    news4: sp_news4,
+    news5: sp_news5,
+    news6: sp_news6,
+    testimonial: sp_testimonial,
+    learnnews: sp_learnnews,
+    product1: sp_product1,
+    product2: sp_product2,
+    product3: sp_product3
   },
   en: {
     translation: en,
@@ -86,13 +68,7 @@ const resources = {
     learnnews: en_learnnews,
     product1: en_product1,
     product2: en_product2,
-    product3: en_product3,
-    product4: en_product4,
-    product5: en_product5,
-    product6: en_product6,
-    product7: en_product7,
-    product8: en_product8,
-    product9: en_product9
+    product3: en_product3
   }
 };
 
@@ -102,7 +78,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en', // English fallback
-    lng: 'it', // Explicitly set Italian as default
+    lng: 'sp', // Explicitly set Spanish as default
     debug: false,
     
     // Ensure synchronous loading for react-snap

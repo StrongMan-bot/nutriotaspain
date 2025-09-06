@@ -1,0 +1,324 @@
+{
+  "header": {
+    "products": "Productos",
+    "news": "Noticias",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "searchPlaceholder": "Buscar productos...",
+    "language": "Español"
+  },
+  "hero": {
+    "slide1": {
+      "title": "Descubre el poder de la nutrición con Nutriota.",
+      "subtitle": "Ofrecemos una gama de vitaminas, minerales y suplementos alimenticios diseñados para satisfacer las diversas necesidades de salud individuales.",
+      "shopNow": "Comprar ahora"
+    },
+    "slide2": {
+      "title": "¡Nutriota Sport ha llegado!",
+      "subtitle": "¡Listo para rendir!",
+      "shopNow": "Comprar ahora"
+    }
+  },
+  "about": {
+    "title": "Quién es Nutriota",
+    "description1": "En Nutriota creemos que la vida es un viaje en el que el tiempo es precioso. Por eso nos comprometemos a proporcionar suplementos alimenticios de alta calidad y científicamente validados que te ayudan a dar lo mejor de ti en todos los aspectos de la vida.",
+    "description2": "Descubre cómo ayudamos a miles de personas en el Reino Unido y Europa a alcanzar su máximo potencial a través de la excelencia nutricional.",
+    "discoverUs": "Descubre más"
+  },
+  "bestSellers": {
+    "title": "Los más vendidos",
+    "subtitle": "Descubre nuestros suplementos alimenticios más populares, de los que miles de clientes confían"
+  },
+  "whyNutriota": {
+    "title": "¿Por qué Nutriota?",
+    "lovedOnAmazon": {
+      "title": "Amado en Amazon",
+      "description": "Nuestra presencia en Amazon nos conecta con compradores exigentes que apoyan nuestros productos. Innumerables reseñas positivas y calificaciones altas nos han dado una reputación de excelencia."
+    },
+    "moneyBackGuarantee": {
+      "title": "GARANTÍA DE REEMBOLSO 100%",
+      "description": "Ama el producto o garantía de reembolso 100%. Garantizamos la calidad y si no estás completamente satisfecho, te reembolsamos el precio completo. La garantía de por vida de Nutriota se aplica a todas las compras."
+    },
+    "carefullyManufactured": {
+      "title": "Fabricado con cuidado",
+      "description": "Nuestros suplementos alimenticios están cuidadosamente formulados, combinando investigación e ingredientes de alta calidad para productos efectivos y seguros que superan todas las expectativas."
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen las personas"
+  },
+  "learnNews": {
+    "title": "Aprende y Noticias",
+    "subtitle": "Descubre perspectivas prácticas sobre el bienestar y mantente actualizado con los últimos descubrimientos de la ciencia nutricional",
+    "readMore": "Leer más"
+  },
+  "footer": {
+    "tagline": "Suplementos alimenticios limpios y transparentes para estilos de vida modernos. Tu bienestar diario, simplificado.",
+    "quickLinks": "Enlaces rápidos",
+    "companyInfo": "Información de la empresa",
+    "companyName": "DZH B.V.",
+    "companyAddress1": "UE/EU: DZH B.V.",
+    "companyAddress2": "Kingsfordweg 151",
+    "companyAddress3": "1043 GR Amsterdam",
+    "companyAddress4": "Países Bajos",
+    "phone": "Teléfono",
+    "phoneNumber": "+31 (0)6167 06036",
+    "companyDescription": "DZH B.V. es el socio de distribución oficial de Nutriota en la UE.",
+    "copyright": "© 2025 Nutriota. Todos los derechos reservados.",
+    "privacyPolicy": "Política de privacidad",
+    "termsConditions": "Términos y condiciones"
+  },
+  "newsletter": {
+    "title": "Mantente actualizado con Nutriota",
+    "subtitle": "Únete a nuestra comunidad y recibe los mejores consejos de bienestar, perspectivas de salud y ofertas exclusivas directamente en tu bandeja de entrada.",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+    "subscribe": "Suscribirse ahora",
+    "subscribing": "Suscribiendo...",
+    "subscribeSuccess": "¡Gracias por suscribirte a nuestro boletín!",
+    "subscribeError": "Algo salió mal. Inténtalo de nuevo más tarde.",
+    "agreementText": "Al suscribirte aceptas nuestros",
+    "and": "y"
+  },
+  "products": {
+    "title": "Productos",
+    "categories": "Categorías",
+    "allProducts": "Todos los productos",
+    "vitamins": "Vitaminas",
+    "supplements": "Suplementos alimenticios",
+    "herbalSupplements": "Suplementos herbales",
+    "minerals": "Minerales",
+    "showingAll": "Mostrar todos los {{count}} productos",
+    "showingCategory": "Mostrar {{count}} productos en {{category}}",
+    "noProducts": "No se encontraron productos",
+    "noProductsDesc": "Intenta seleccionar otra categoría.",
+    "bestSeller": "Los más vendidos",
+    "ratings": "Calificaciones",
+    "buyOnAmazon": "Comprar en Amazon"
+  },
+  "contact": {
+    "title": "¿No puedes encontrar las respuestas que buscas?",
+    "subtitle": "¡ESCRÍBENOS!",
+    "getInTouch": "Ponte en contacto",
+    "emailTitle": "Enviar correo electrónico",
+    "emailSubtitle": "Envíanos un correo electrónico en cualquier momento",
+    "addressTitle": "Ven a visitarnos",
+    "addressSubtitle": "Nuestra sede oficial",
+    "responseTime": "Tiempo de respuesta",
+    "responseTimeText": "Normalmente respondemos a todas las solicitudes dentro de 24 horas en días laborables.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "namePlaceholder": "Ingresa tu nombre completo",
+    "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+    "messagePlaceholder": "Dinos cómo podemos ayudarte...",
+    "privacyAccept": "He leído y acepto la",
+    "and": "y",
+    "sendMessage": "Enviar mensaje",
+    "sending": "Enviando...",
+    "successMessage": "¡Gracias por tu mensaje! Te responderemos pronto.",
+    "errorMessage": "Algo salió mal. Inténtalo de nuevo más tarde.",
+    "privacyRequired": "Acepta los Términos y condiciones y la Política de privacidad para continuar."
+  },
+  "news": {
+    "title": "Últimas noticias de salud y actualizaciones",
+    "subtitle": "Mantente actualizado con los mejores consejos de bienestar, descubrimientos de salud y formas simples de sentirse mejor cada día",
+    "readFullStory": "Leer la historia completa",
+    "backToNews": "Volver a la página principal de noticias",
+    "discoverMore": "Descubre más consejos de salud y artículos de bienestar"
+  },
+  "aboutUs": {
+    "hero": {
+      "title": "Acerca de nosotros",
+      "subtitle": "Nuestro éxito comienza contigo en mente",
+      "description": "Cada día trabajamos con pasión para producir los mejores suplementos alimenticios utilizando solo las mejores materias primas."
+    },
+    "background": {
+      "title": "Antecedentes",
+      "subtitle": "La historia de Jumbostore",
+      "description": "Jumbostore Ltd, una empresa británica especializada en la producción de suplementos alimenticios, tiene una marca notable llamada Nutriota. Nuestros productos, que provienen de orígenes humildes, han disfrutado de gran popularidad y hoy son apreciados en más de 5 países en todo el mundo."
+    },
+    "dzh": {
+      "title": "DZH B.V. - Los distribuidores",
+      "description": "DZH B.V., con sede en los Países Bajos, se ha integrado perfectamente en la red global de Jumbostore Ltd. Poco antes de la salida del Reino Unido de la Unión Europea, DZH B.V. fue fundada con el objetivo de satisfacer la demanda del mercado de la UE para los productos de Jumbostore Ltd., que incluyen marcas populares como Nutriota y Earthly Nutrition.",
+      "service": "Nuestro compromiso con un servicio al cliente excepcional permanece inalterado. Ya seas un mayorista, un minorista o un cliente privado, nuestro equipo amigable siempre está listo para satisfacer tus necesidades de productos y responder a tus solicitudes."
+    },
+    "mission": {
+      "title": "NUESTRA MISIÓN",
+      "subtitle": "Impulsa tu viaje hacia un yo más saludable",
+      "paragraph1": "En Nutriota abrimos los brazos para recibir la alegría de la vida y motivar a las personas a alcanzar su máximo potencial proporcionando suplementos alimenticios de alta calidad y efectivos.",
+      "paragraph2": "Creemos en promover las capacidades únicas de cada individuo y queremos que nuestra nutrición sea parte de su viaje de descubrimiento hacia la versión más saludable de sí mismos.",
+      "bringJoy": "Traer alegría",
+      "wellness": {
+        "title": "Potenciar el bienestar",
+        "description": "Nutriota es una marca emergente de suplementos alimenticios que permite a las personas realizar su potencial a través de una excelente nutrición. Nuestra experiencia nutricional garantiza que ofrecemos vitaminas y minerales de la más alta calidad en todo el Reino Unido y Europa."
+      }
+    },
+    "vision": {
+      "title": "NUESTRA VISIÓN",
+      "subtitle": "Nutrición pionera para mayor vitalidad.",
+      "description": "Queremos liderar un movimiento global para el bienestar y la vitalidad. Aspiramos a estar a la vanguardia de la ciencia nutricional y ofrecer suplementos alimenticios innovadores y científicamente validados que ayuden a las personas a vivir una vida más saludable, activa y equilibrada.",
+      "paragraph2": "Imaginamos un mundo donde tantas personas como sea posible tengan los recursos y el conocimiento para nutrir su cuerpo, mente y alma, realizar su potencial y alcanzar su mejor personal."
+    }
+  },
+  "chatbot": {
+    "initialMessage": "¡Hola! Soy el asistente de salud de Nutriota. ¿Qué suplementos alimenticios estás buscando o qué objetivo de salud puedo ayudarte a alcanzar?",
+    "title": "Asistente de salud de Nutriota",
+    "subtitle": "Inicia una conversación. Estamos aquí para ayudarte 24/7.",
+    "footer": "Desarrollado y mantenido por VIRRTECH; virrtech.com",
+    "getStarted": "Nueva conversación",
+    "inputPlaceholder": "Ingresa tu pregunta...",
+    "bubbleMessage": "¡Hola! Puedo ayudarte a encontrar el producto correcto"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "introduction": "Introducción",
+    "introText": "Nos comprometemos a proteger tus datos personales y garantizar el cumplimiento con las regulaciones globales de privacidad, incluyendo el Reglamento General de Protección de Datos (GDPR), la Ley de Privacidad del Consumidor de California (CCPA) y otras leyes aplicables. Esta Política de privacidad describe cómo recopilamos, usamos, almacenamos y protegemos tu información personal.",
+    "informationWeCollect": "Información que recopilamos",
+    "informationWeCollectText": "Recopilamos información que nos proporcionas directamente, incluyendo:",
+    "personalInfo": "Información personal: nombre, dirección de correo electrónico, número de teléfono, dirección de facturación y detalles de pago cuando creas una cuenta, realizas una compra o nos contactas.",
+    "usageData": "Datos de uso: información sobre cómo interactúas con nuestro sitio web, como dirección IP, tipo de navegador, información del dispositivo, páginas visitadas y tiempo dedicado a nuestros servicios.",
+    "cookies": "Cookies y tecnologías de seguimiento: utilizamos cookies, web beacons y tecnologías similares para mejorar tu experiencia, analizar el uso y proporcionar contenido personalizado.",
+    "howWeUse": "Cómo utilizamos tu información",
+    "howWeUseText": "Utilizamos tu información para:",
+    "provideServices": "Proporcionar, mantener y mejorar nuestros servicios y la funcionalidad del sitio web.",
+    "processTransactions": "Procesar transacciones y cumplir pedidos.",
+    "communicate": "Comunicarnos contigo, incluyendo responder solicitudes y enviar actualizaciones relacionadas con el servicio.",
+    "personalize": "Personalizar tu experiencia a través de contenido y publicidad personalizada.",
+    "monitor": "Monitorear y analizar patrones de uso para mejorar nuestros servicios.",
+    "comply": "Cumplir obligaciones legales y hacer cumplir nuestras políticas.",
+    "contact": "Contacto",
+    "contactText": "Si tienes preguntas o inquietudes sobre esta Política de privacidad o deseas ejercer tus derechos de privacidad, contáctanos:",
+    "contactEmail": "Correo electrónico: enschede@dzhbv.nl",
+    "contactAddress": "Kingsfordweg 151, 1043 GR, Amsterdam, Países Bajos",
+    "legalBasisTitle": "Base legal para el procesamiento (GDPR)",
+    "legalBasisText": "Para usuarios en el Espacio Económico Europeo (EEE), procesamos datos personales sobre la base de las siguientes bases legales:",
+    "consentTitle": "Consentimiento",
+    "consentText": "Cuando has dado consentimiento explícito para propósitos específicos, como marketing.",
+    "contractTitle": "Necesidad contractual",
+    "contractText": "Para cumplir con nuestras obligaciones contractuales, como el procesamiento de pagos.",
+    "legalTitle": "Obligación legal",
+    "legalText": "Para cumplir con las leyes y regulaciones aplicables.",
+    "legitimateTitle": "Intereses legítimos",
+    "legitimateText": "Para propósitos como mejorar nuestros servicios o prevenir fraudes, cuando nuestros intereses no prevalecen sobre tus derechos.",
+    "infoSharingTitle": "Compartir información",
+    "infoSharingText": "No vendemos, comercializamos o transferimos tus datos personales a terceros sin tu consentimiento, excepto en los siguientes casos:",
+    "serviceProvidersTitle": "Proveedores de servicios",
+    "serviceProvidersText": "Compartimos datos con proveedores de terceros confiables que ayudan con servicios como procesamiento de pagos, hosting o análisis bajo estrictos acuerdos de confidencialidad.",
+    "legalReqTitle": "Requisitos legales",
+    "legalReqText": "Podríamos divulgar información para cumplir con obligaciones legales, como responder a órdenes judiciales o solicitudes gubernamentales.",
+    "businessTransferTitle": "Transferencias comerciales",
+    "businessTransferText": "En caso de fusión, adquisición o venta de negocios, tu información podría ser transferida como parte de la transacción con medidas de protección adecuadas.",
+    "dataSecurityTitle": "Seguridad de datos",
+    "dataSecurityText": "Implementamos medidas de seguridad robustas para proteger tus datos personales, incluyendo:",
+    "encryption": "Cifrado de datos sensibles durante la transmisión y almacenamiento.",
+    "securityAssessments": "Evaluaciones de seguridad regulares y actualizaciones de nuestros sistemas.",
+    "accessControls": "Controles de acceso para limitar quién puede ver o procesar tus datos.",
+    "securityNote": "A pesar de nuestros esfuerzos, ningún sistema es completamente seguro. En caso de violación de datos, notificaremos a los usuarios afectados según los requisitos legales.",
+    "rightsTitle": "Tus derechos de privacidad",
+    "rightsText": "Dependiendo de tu ubicación, podrías tener los siguientes derechos sobre tus datos personales:",
+    "accessTitle": "Acceso",
+    "accessText": "Solicitar una copia de los datos personales que hemos almacenado sobre ti.",
+    "rectificationTitle": "Rectificación",
+    "rectificationText": "Corregir datos inexactos o incompletos.",
+    "deletionTitle": "Eliminación",
+    "deletionText": "Solicitar la eliminación de tus datos, sujeto a obligaciones legales.",
+    "restrictionTitle": "Restricción",
+    "restrictionText": "Solicitar la restricción del procesamiento de tus datos.",
+    "portabilityTitle": "Portabilidad",
+    "portabilityText": "Recibir tus datos en un formato estructurado y legible por máquina.",
+    "objectionTitle": "Objeción",
+    "objectionText": "Plantear objeciones al procesamiento basado en intereses legítimos o para marketing directo.",
+    "withdrawTitle": "Retiro del consentimiento",
+    "withdrawText": "Retirar tu consentimiento en cualquier momento cuando el procesamiento se basa en el consentimiento.",
+    "contactRights": "Para ejercer estos derechos, contáctanos con los detalles a continuación.",
+    "internationalTitle": "Transferencias internacionales de datos",
+    "internationalText": "Tus datos podrían ser transferidos y procesados en países fuera de tu jurisdicción, incluyendo Estados Unidos. Aseguramos que dichas transferencias cumplan con las leyes aplicables, utilizando mecanismos como las Cláusulas Contractuales Estándar (SCC) para datos del EEE.",
+    "retentionTitle": "Retención de datos",
+    "retentionText": "Retenemos tus datos personales solo por el tiempo necesario para cumplir con los propósitos descritos en esta política o según los requisitos legales. Por ejemplo, retenemos la información de la cuenta mientras tu cuenta esté activa y por un período razonable después para cumplir con obligaciones legales.",
+    "cookiesTitle": "Cookies y tecnologías de seguimiento",
+    "cookiesText": "Utilizamos cookies para mejorar tu experiencia. Puedes gestionar la configuración de cookies a través de la configuración del navegador. Las cookies esenciales son necesarias para la funcionalidad del sitio web, mientras que las cookies opcionales apoyan análisis y contenido personalizado.",
+    "thirdPartyTitle": "Enlaces a terceros",
+    "thirdPartyText": "Nuestro sitio web podría contener enlaces a sitios web de terceros. No somos responsables de las prácticas de privacidad de estos sitios web. Te recomendamos revisar sus políticas de privacidad.",
+    "updatesTitle": "Actualizaciones de esta política",
+    "updatesText": "Podríamos actualizar esta Política de privacidad para reflejar cambios en nuestras prácticas o requisitos legales. Te informaremos de cambios significativos por correo electrónico o a través de un aviso prominente en nuestro sitio web."
+  },
+  "carousel": {
+    "alphaLipoic": {
+      "title": "Ácido Alfa Lipoico",
+      "description": "Antioxidante potente para el apoyo del azúcar en sangre y la salud del sistema nervioso"
+    },
+    "propolis": {
+      "title": "Própolis",
+      "description": "Refuerzo natural del sistema inmunológico con potentes propiedades antioxidantes"
+    },
+    "chromium": {
+      "title": "Picolinato de Cromo",
+      "description": "Mineral esencial para un metabolismo saludable del azúcar en sangre y producción de energía"
+    }
+  },
+  "terms": {
+    "title": "Términos y condiciones",
+    "subtitle": "Por favor lee cuidadosamente estos términos de uso antes de usar nuestro sitio web",
+    "seo": {
+      "title": "Términos y condiciones - Nutriota",
+      "description": "Lee nuestros Términos y condiciones para el uso del sitio web y servicios de Nutriota.",
+      "keywords": "Términos, condiciones, legal, Nutriota, suplementos alimenticios, sitio web"
+    },
+    "introduction": "Bienvenido al sitio web de Nutriota (nuestro sitio web). Por favor lee cuidadosamente estos términos de uso antes de comenzar a usar el sitio web. Al usar nuestro sitio web, indicas que aceptas y respetas estos términos de uso. Si no estás de acuerdo con estos términos de uso, por favor abstente de usar nuestro sitio web.",
+    "section1": {
+      "title": "1. INFORMACIÓN SOBRE NOSOTROS",
+      "content": "Nutriota se especializa en proporcionar suplementos alimenticios de alta calidad."
+    },
+    "section2": {
+      "title": "2. ACCESO A NUESTRO SITIO WEB",
+      "content": "El acceso a nuestro sitio web está permitido temporalmente y nos reservamos el derecho de retirar o modificar el servicio que proporcionamos en nuestro sitio web sin previo aviso. No seremos responsables si nuestro sitio web no está disponible por cualquier razón en cualquier momento o por cualquier período."
+    },
+    "section3": {
+      "title": "3. PRECISIÓN DE LA INFORMACIÓN Y EXCLUSIÓN DE RESPONSABILIDAD",
+      "content": "La información en nuestro sitio web se proporciona solo con fines informativos generales y no debe utilizarse como base para decisiones relacionadas con la salud o el bienestar. Nos esforzamos por ser precisos, pero no proporcionamos ninguna garantía o aseguramiento con respecto a la integridad o precisión de la información en nuestro sitio web. No seremos responsables de pérdidas o daños derivados de confiar en la información en nuestro sitio web."
+    },
+    "section4": {
+      "title": "4. ENLACES A OTROS SITIOS WEB",
+      "content": "Podríamos proporcionar enlaces a otros sitios web para tu conveniencia. No somos responsables del contenido de estos sitios web enlazados y no aprobamos o garantizamos su precisión. Accede a estos sitios web enlazados bajo tu propio riesgo."
+    },
+    "section5": {
+      "title": "5. PROPIEDAD INTELECTUAL",
+      "content": "Todos los derechos de propiedad intelectual mostrados en nuestro sitio web pertenecen a Nutriota. No debes modificar, publicar, transmitir o crear obras derivadas basadas en el contenido de nuestro sitio web sin nuestra autorización explícita."
+    },
+    "section6": {
+      "title": "6. ACCESO AL SERVICIO",
+      "content": "Aunque nos esforzamos por asegurar que nuestro sitio web esté normalmente disponible 24 horas al día, no seremos responsables si nuestro sitio web no está disponible por cualquier razón en cualquier momento o por cualquier período."
+    },
+    "section7": {
+      "title": "7. REGISTRO",
+      "content": "Si deseas registrarte en nuestro sitio web, debes tener al menos 18 años. Eres responsable de la confidencialidad de tu cuenta y contraseña y de limitar el acceso a tu computadora."
+    },
+    "section8": {
+      "title": "8. VIRUS, HACKING Y OTRAS VIOLACIONES",
+      "content": "No debes abusar de nuestro sitio web introduciendo conscientemente virus, troyanos, gusanos, bombas lógicas u otro material dañino o tecnológicamente dañino. No debes intentar obtener acceso no autorizado a nuestro sitio web."
+    },
+    "section9": {
+      "title": "9. POLÍTICA DE USO ACEPTABLE",
+      "content": "Puedes usar nuestro sitio web solo para propósitos legítimos. No debes usar nuestro sitio web de manera que viole las leyes o regulaciones aplicables."
+    },
+    "section10": {
+      "title": "10. EXCLUSIÓN DEL SITIO WEB",
+      "content": "Nos reservamos el derecho de excluir a cualquiera de nuestro sitio web a nuestra discreción de manera permanente o temporal."
+    },
+    "section11": {
+      "title": "11. JURISDICCIÓN LEGAL Y RESOLUCIÓN DE DISPUTAS",
+      "content": "Estas condiciones están sujetas a la ley inglesa y deben interpretarse de acuerdo con la ley inglesa. Los tribunales de Inglaterra tienen jurisdicción exclusiva para resolver disputas que puedan surgir de estas condiciones o en conexión con ellas."
+    },
+    "section12": {
+      "title": "12. PRIVACIDAD",
+      "content": "Tratamos la información sobre ti de acuerdo con nuestra Política de privacidad. Al usar nuestro sitio web, aceptas dicho tratamiento."
+    },
+    "section13": {
+      "title": "13. INFORMACIÓN ADICIONAL",
+      "content": "Para más información sobre estas condiciones o para preguntas, contáctanos a través de la página de contacto."
+    }
+  }
+}
+
+

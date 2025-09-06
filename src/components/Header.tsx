@@ -16,14 +16,14 @@ const Header = () => {
   const [showSearchResults, setShowSearchResults] = useState(false);
   const [logoError, setLogoError] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState(() => {
-    // Initialize with Italian as default
-    const currentLang = i18n.language || 'it';
-    if (currentLang === 'it') {
-      return { code: 'it', name: 'Italiano', flag: '🇮🇹' };
+    // Initialize with Spanish as default
+    const currentLang = i18n.language || 'sp';
+    if (currentLang === 'sp') {
+      return { code: 'sp', name: 'Español', flag: '🇪🇸' };
     } else if (currentLang === 'en') {
       return { code: 'en', name: 'English', flag: '🇬🇧' };
     } else {
-      return { code: 'it', name: 'Italiano', flag: '🇮🇹' };
+      return { code: 'sp', name: 'Español', flag: '🇪🇸' };
     }
   });
   const [isScrolled, setIsScrolled] = useState(false);
@@ -47,12 +47,12 @@ const Header = () => {
       await i18n.changeLanguage(langCode);
       console.log('i18n language changed to:', langCode);
       
-      if (langCode === 'it') {
-        setSelectedLanguage({ code: 'it', name: 'Italiano', flag: '🇮🇹' });
+      if (langCode === 'sp') {
+        setSelectedLanguage({ code: 'sp', name: 'Español', flag: '🇪🇸' });
       } else if (langCode === 'en') {
         setSelectedLanguage({ code: 'en', name: 'English', flag: '🇬🇧' });
       } else {
-        setSelectedLanguage({ code: 'it', name: 'Italiano', flag: '🇮🇹' });
+        setSelectedLanguage({ code: 'sp', name: 'Español', flag: '🇪🇸' });
       }
       
       console.log('Language state updated');
@@ -74,13 +74,13 @@ const Header = () => {
 
   // Update selected language when i18n language changes
   useEffect(() => {
-    const currentLang = i18n.language || 'it';
-    if (currentLang === 'it') {
-      setSelectedLanguage({ code: 'it', name: 'Italiano', flag: '🇮🇹' });
+    const currentLang = i18n.language || 'sp';
+    if (currentLang === 'sp') {
+      setSelectedLanguage({ code: 'sp', name: 'Español', flag: '🇪🇸' });
     } else if (currentLang === 'en') {
       setSelectedLanguage({ code: 'en', name: 'English', flag: '🇬🇧' });
     } else {
-      setSelectedLanguage({ code: 'it', name: 'Italiano', flag: '🇮🇹' });
+      setSelectedLanguage({ code: 'sp', name: 'Español', flag: '🇪🇸' });
     }
   }, [i18n.language]);
 
@@ -88,83 +88,34 @@ const Header = () => {
   const products = [
     {
       "id": 1,
-      "category": t('products.minerals'),
-      "name": "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
-      "price": "€23.79",
-      "image": "https://m.media-amazon.com/images/I/61OkL2nfd2L._AC_SX679_.jpg",
-      "link": "https://www.amazon.it/dp/B0C8G7Y1D6"
+      "category": t('products.supplements'),
+      "name": "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/61PyhQAGXDL._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B09NXNVBHZ"
     },
     {
       "id": 2,
-      "category": t('products.vitamins'),
-      "name": "Nutriota Vitamin B6 |10 mg (180 Capsules)",
-      "price": "€15.95",
-      "image": "https://m.media-amazon.com/images/I/61y0r7qxl7L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CNKNC88Z"
+      "category": t('products.supplements'),
+      "name": "Nutriota Propolis | 1000 mg (180 Tablets)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/615c8u9DpSL._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B09FFFSX3K"
     },
     {
       "id": 3,
-      "category": t('products.vitamins'),
-      "name": "Nutriota Vitamin B3 (Nicotinamide) | 54 mg (180 Capsules)",
-      "price": "€13.90",
-      "image": "https://m.media-amazon.com/images/I/61zrLu+FSbL._AC_SY300_SX300_.jpg",
-      "link": "https://www.amazon.it/dp/B0CK4XFPP9"
-    },
-    {
-      "id": 4,
-      "category": t('products.supplements'),
-      "name": "Nutriota Propolis | 1000 mg (180 Capsules)",
-      "price": "€17.79",
-      "image": "https://m.media-amazon.com/images/I/617gq7K4abL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B08TB387M9"
-    },
-    {
-      "id": 5,
-      "category": t('products.supplements'),
-      "name": "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
-      "price": "€29.90",
-      "image": "https://m.media-amazon.com/images/I/61GtNp-NvGL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B081D2SPVF"
-    },
-    {
-      "id": 6,
-      "category": t('products.vitamins'),
-      "name": "Nutriota Vitamin B1 | 25 mg (180 Capsules)",
-      "price": "€11.99",
-      "image": "https://m.media-amazon.com/images/I/61VsBeBnpML.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CNKKJF5M"
-    },
-    {
-      "id": 7,
-      "category": t('products.herbalSupplements'),
-      "name": "Nutriota Echinacea | 500 mg (240 Tablets)",
-      "price": "€19.79",
-      "image": "https://m.media-amazon.com/images/I/61330aWtIEL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B09PNK3GRH"
-    },
-    {
-      "id": 8,
       "category": t('products.minerals'),
-      "name": "Nutriota Selencora (Selenium w/ Zinc and Copper) | (180 Capsules)",
-      "price": "€10.99",
-      "image": "https://m.media-amazon.com/images/I/61Sdenl4g5L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CT64JJ1N"
-    },
-    {
-      "id": 9,
-      "category": t('products.supplements'),
-      "name": "Nutriota Royal Jelly | 250 mg (120 Capsules)",
-      "price": "€24.99",
-      "image": "https://m.media-amazon.com/images/I/61o7Po1LO5L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B08W44Q351"
+      "name": "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/616nEDc2B6L._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B0DCZJDCKH"
     }
   ];
 
   const carouselItems = [
-    { id: 1, titleKey: "carousel.vitamins.title", descriptionKey: "carousel.vitamins.description", image: "/images/VitaminHeaderItaly.jpg", productId: 2 },
-    { id: 2, titleKey: "carousel.supplements.title", descriptionKey: "carousel.supplements.description", image: "/images/SupplementsHeaderItaly.jpg", productId: 4 },
-    { id: 3, titleKey: "carousel.herbalSupplements.title", descriptionKey: "carousel.herbalSupplements.description", image: "/images/HerbalHeaderItaly.jpg", productId: 7 },
-    { id: 4, titleKey: "carousel.minerals.title", descriptionKey: "carousel.minerals.description", image: "/images/MineralsHeaderItaly.jpg", productId: 8 }
+    { id: 1, titleKey: "carousel.alphaLipoic.title", descriptionKey: "carousel.alphaLipoic.description", image: "/images/SpainSupplementHeader.jpg", productId: 1 },
+    { id: 2, titleKey: "carousel.propolis.title", descriptionKey: "carousel.propolis.description", image: "/images/SpainSupplementHeader.jpg", productId: 2 },
+    { id: 3, titleKey: "carousel.chromium.title", descriptionKey: "carousel.chromium.description", image: "/images/SpainMineralHeader.jpg", productId: 3 }
   ];
 
   useEffect(() => {
@@ -259,9 +210,7 @@ const Header = () => {
       const reverseCategoryMap: { [key: string]: string } = {
         [t('products.allProducts')]: 'All Products',
         [t('products.minerals')]: 'Minerals',
-        [t('products.vitamins')]: 'Vitamins',
-        [t('products.supplements')]: 'Supplements',
-        [t('products.herbalSupplements')]: 'Herbal Supplements'
+        [t('products.supplements')]: 'Supplements'
       };
       const englishCategory = reverseCategoryMap[category] || category;
       router.push(`/products?category=${encodeURIComponent(englishCategory)}`);
@@ -309,11 +258,9 @@ const Header = () => {
                       <div className="w-1/3 p-6 border-r border-gray-100">
                         <div className="space-y-1">
                           <div className="text-lg font-bold text-gray-900 mb-4 cursor-default">{t('products.categories')}</div>
+                          <button onClick={() => handleCategoryClick(t('products.allProducts'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.allProducts')}</button>
                           <button onClick={() => handleCategoryClick(t('products.minerals'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.minerals')}</button>
-                                                      <button onClick={() => handleCategoryClick(t('products.vitamins'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.vitamins')}</button>
-                            <button onClick={() => handleCategoryClick(t('products.supplements'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.supplements')}</button>
-                            <button onClick={() => handleCategoryClick(t('products.herbalSupplements'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.herbalSupplements')}</button>
-                            <button onClick={() => handleCategoryClick(t('products.allProducts'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.allProducts')}</button>
+                          <button onClick={() => handleCategoryClick(t('products.supplements'))} className="block w-full text-left py-2 px-3 text-gray-700 hover:text-[#0089CF] hover:bg-blue-50 rounded-lg transition-all duration-200 font-medium">{t('products.supplements')}</button>
                         </div>
                       </div>
                       <div className="w-2/3 p-6">
@@ -433,20 +380,20 @@ const Header = () => {
               </button>
               {isLanguageOpen && (
                 <div className="absolute top-full right-0 mt-2 w-full bg-white rounded-xl shadow-lg border border-gray-100 py-2 z-50">
-                  {/* Changed order: Italiano first, then English */}
+                  {/* Changed order: Español first, then English */}
                   <button 
                     onClick={() => {
                       if (!isLanguageLoading) {
-                        handleLanguageChange('it');
+                        handleLanguageChange('sp');
                         setIsLanguageOpen(false);
                       }
                     }} 
                     className="w-full text-left flex items-center space-x-3 px-3 py-2 text-gray-700 hover:text-[#0089CF] hover:bg-gray-50 transition-colors duration-200"
                     disabled={isLanguageLoading}
                   >
-                    <span className="text-lg">🇮🇹</span>
-                    <span className="font-medium text-sm truncate">Italiano</span>
-                    {isLanguageLoading && selectedLanguage.code !== 'it' && (
+                    <span className="text-lg">🇪🇸</span>
+                    <span className="font-medium text-sm truncate">Español</span>
+                    {isLanguageLoading && selectedLanguage.code !== 'sp' && (
                       <div className="ml-auto animate-spin rounded-full h-3 w-3 border-b-2 border-[#0089CF]"></div>
                     )}
                   </button>

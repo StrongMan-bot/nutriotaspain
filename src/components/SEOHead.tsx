@@ -94,7 +94,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     document.title = seoData.title;
     
     // Set HTML lang attribute for SEO
-    document.documentElement.lang = i18n.language || 'de';
+    document.documentElement.lang = i18n.language || 'es';
 
     // Update or create meta tags
     const updateMetaTag = (name: string, content: string, property?: string) => {

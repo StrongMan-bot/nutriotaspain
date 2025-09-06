@@ -6,14 +6,14 @@ export default function Product3Page() {
   return (
     <>
       <Head>
-        <title>Nutriota Vitamin B3 (Nicotinamide) | Premium Vitamins | Nutriota</title>
-        <meta name="description" content="Discover Nutriota Vitamin B3 (Nicotinamide) - a high-quality supplement that supports cellular energy production and skin health. 54mg per capsule, 180 capsules per bottle." />
-        <meta name="keywords" content="vitamin b3, nicotinamide, cellular energy, skin health, dietary supplement, Nutriota, vitamins" />
+        <title>Nutriota Chromium Picolinate | Premium Minerals | Nutriota</title>
+        <meta name="description" content="Discover Nutriota Chromium Picolinate - a high-quality dietary supplement designed to support healthy blood sugar metabolism and energy production. 250mcg per tablet, 365 tablets per bottle." />
+        <meta name="keywords" content="chromium picolinate, blood sugar support, energy metabolism, dietary supplement, Nutriota, minerals" />
       </Head>
       <ProductDetail 
         productId={3}
-        amazonLink="https://www.amazon.it/dp/B0CK4XFPP9"
-        productImage="https://m.media-amazon.com/images/I/61zrLu+FSbL._AC_SY300_SX300_.jpg"
+        amazonLink="https://www.amazon.es/dp/B0DCZJDCKH"
+        productImage="https://m.media-amazon.com/images/I/616nEDc2B6L._AC_SX679_.jpg"
       />
     </>
   );

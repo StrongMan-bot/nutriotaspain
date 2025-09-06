@@ -15,107 +15,46 @@ const Products = () => {
 
   // List of best seller product names
   const bestSellerProducts = [
-    "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
-    "Nutriota Propolis | 1000 mg (180 Capsules)",
     "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
-    "Nutriota Echinacea | 500 mg (240 Tablets)"
+    "Nutriota Propolis | 1000 mg (180 Tablets)",
+    "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)"
   ];
 
   // Product data from JSON with ratings added
   const products = [
     {
       "id": 1,
-      "category": t('minerals'),
-      "name": "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
-      "price": "€23.79",
-      "image": "https://m.media-amazon.com/images/I/61OkL2nfd2L._AC_SX679_.jpg",
-      "link": "https://www.amazon.it/dp/B0C8G7Y1D6",
+      "category": t('supplements'),
+      "name": "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/61PyhQAGXDL._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B09NXNVBHZ",
       "rating": 4.5,
-      "reviews": "300+ " + t('ratings')
+      "reviews": "150+ " + t('ratings')
     },
     {
       "id": 2,
-      "category": t('vitamins'),
-      "name": "Nutriota Vitamin B6 |10 mg (180 Capsules)",
-      "price": "€15.95",
-      "image": "https://m.media-amazon.com/images/I/61y0r7qxl7L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CNKNC88Z",
-      "rating": 4.5,
-      "reviews": "100+ " + t('ratings')
+      "category": t('supplements'),
+      "name": "Nutriota Propolis | 1000 mg (180 Tablets)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/615c8u9DpSL._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B09FFFSX3K",
+      "rating": 4.4,
+      "reviews": "150+ " + t('ratings')
     },
     {
       "id": 3,
-      "category": t('vitamins'),
-      "name": "Nutriota Vitamin B3 (Nicotinamide) | 54 mg (180 Capsules)",
-      "price": "€13.90",
-      "image": "https://m.media-amazon.com/images/I/61zrLu+FSbL._AC_SY300_SX300_.jpg",
-      "link": "https://www.amazon.it/dp/B0CK4XFPP9",
-      "rating": 4.4,
-      "reviews": "100+ " + t('ratings')
-    },
-    {
-      "id": 4,
-      "category": t('supplements'),
-      "name": "Nutriota Propolis | 1000 mg (180 Capsules)",
-      "price": "€17.79",
-      "image": "https://m.media-amazon.com/images/I/617gq7K4abL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B08TB387M9",
-      "rating": 4.3,
-      "reviews": "200+ " + t('ratings')
-    },
-    {
-      "id": 5,
-      "category": t('supplements'),
-      "name": "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
-      "price": "€29.90",
-      "image": "https://m.media-amazon.com/images/I/61GtNp-NvGL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B081D2SPVF",
-      "rating": 4.5,
-      "reviews": "650+ " + t('ratings')
-    },
-    {
-      "id": 6,
-      "category": t('vitamins'),
-      "name": "Nutriota Vitamin B1 | 25 mg (180 Capsules)",
-      "price": "€11.99",
-      "image": "https://m.media-amazon.com/images/I/61VsBeBnpML.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CNKKJF5M",
-      "rating": 4.5,
-      "reviews": "100+ " + t('ratings')
-    },
-    {
-      "id": 7,
-      "category": t('herbalSupplements'),
-      "name": "Nutriota Echinacea | 500 mg (240 Tablets)",
-      "price": "€19.79",
-      "image": "https://m.media-amazon.com/images/I/61330aWtIEL.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B09PNK3GRH",
-      "rating": 4.5,
-      "reviews": "150+ " + t('ratings')
-    },
-    {
-      "id": 8,
       "category": t('minerals'),
-      "name": "Nutriota Selencora (Selenium w/ Zinc and Copper) | (180 Capsules)",
-      "price": "€10.99",
-      "image": "https://m.media-amazon.com/images/I/61Sdenl4g5L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B0CT64JJ1N",
+      "name": "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
+      "price": "€16.99",
+      "image": "https://m.media-amazon.com/images/I/616nEDc2B6L._AC_SX679_.jpg",
+      "link": "https://www.amazon.es/dp/B0DCZJDCKH",
       "rating": 4.4,
-      "reviews": "50+ " + t('ratings')
-    },
-    {
-      "id": 9,
-      "category": t('supplements'),
-      "name": "Nutriota Royal Jelly | 250 mg (120 Capsules)",
-      "price": "€24.99",
-      "image": "https://m.media-amazon.com/images/I/61o7Po1LO5L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "link": "https://www.amazon.it/dp/B08W44Q351",
-      "rating": 4.4,
-      "reviews": "150+ " + t('ratings')
+      "reviews": "30+ " + t('ratings')
     }
   ];
 
-  const categories = [t('allProducts'), t('minerals'), t('vitamins'), t('supplements'), t('herbalSupplements')];
+  const categories = [t('allProducts'), t('minerals'), t('supplements')];
 
   // Handle category filtering from URL params
   useEffect(() => {
@@ -124,9 +63,7 @@ const Products = () => {
       const categoryMap: { [key: string]: string } = {
         'All Products': t('allProducts'),
         'Minerals': t('minerals'),
-        'Vitamins': t('vitamins'),
-        'Supplements': t('supplements'),
-        'Herbal Supplements': t('herbalSupplements')
+        'Supplements': t('supplements')
       };
       
       const translatedCategory = categoryMap[category as string];

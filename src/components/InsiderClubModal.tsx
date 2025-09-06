@@ -27,7 +27,7 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
     e.preventDefault();
     
     if (!formData.name.trim() || !formData.email.trim() || !formData.email.includes('@')) {
-      setError('Per favore inserisci il tuo nome e un indirizzo email valido.');
+      setError('Por favor ingresa tu nombre y una dirección de email válida.');
       return;
     }
 
@@ -45,7 +45,7 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
           email: formData.email.trim(),
           source: 'insider_club_modal',
           timestamp: new Date().toISOString(),
-          language: 'it'
+          language: 'es'
         }),
       });
 
@@ -58,7 +58,7 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
       }
     } catch (error) {
       console.error('Email submission error:', error);
-      setError('Qualcosa è andato storto. Per favore riprova più tardi.');
+      setError('Algo salió mal. Por favor intenta de nuevo más tarde.');
     } finally {
       setIsSubmitting(false);
     }
@@ -122,12 +122,12 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
             <>
               {/* Headline */}
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-4 leading-tight">
-                20% di Sconto sul Tuo Primo Ordine!
+                ¡20% de Descuento en Tu Primer Pedido!
               </h2>
 
               {/* Subheadline */}
               <p className="text-gray-600 text-center mb-8 leading-relaxed">
-                Inserisci semplicemente il tuo nome e la tua email e ti invieremo immediatamente il codice sconto.
+                Simplemente ingresa tu nombre y email y te enviaremos inmediatamente el código de descuento.
               </p>
 
               {/* Form */}
@@ -138,7 +138,7 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
                     name="name"
                     value={formData.name}
                     onChange={handleInputChange}
-                    placeholder="Il tuo nome"
+                    placeholder="Tu nombre"
                     className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#0089CF] focus:border-[#0089CF] transition-colors duration-200 outline-none text-center"
                     required
                   />
@@ -149,7 +149,7 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    placeholder="La tua email"
+                    placeholder="Tu email"
                     className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#0089CF] focus:border-[#0089CF] transition-colors duration-200 outline-none text-center"
                     required
                   />
@@ -164,13 +164,13 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
                   disabled={isSubmitting}
                   className="w-full bg-[#0089CF] hover:bg-[#0074B7] text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                 >
-                  {isSubmitting ? 'Invio in corso...' : 'Unisciti Ora'}
+                  {isSubmitting ? 'Enviando...' : 'Únete Ahora'}
                 </button>
               </form>
 
               {/* Privacy Note */}
               <p className="text-xs text-gray-500 text-center mt-4">
-                Iscrivendoti accetti la nostra politica sulla privacy.
+                Al unirte aceptas nuestra política de privacidad.
               </p>
             </>
           ) : (
@@ -181,18 +181,18 @@ const InsiderClubModal: React.FC<InsiderClubModalProps> = ({ isOpen, onClose }) 
               </div>
               
               <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Grazie Mille!
+                ¡Muchas Gracias!
               </h3>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Grazie per esserti unito al Nutriota Insider Club!
+                ¡Gracias por unirte al Nutriota Insider Club!
               </p>
               
               <button
                 onClick={handleClose}
                 className="w-full bg-[#0089CF] hover:bg-[#0074B7] text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
-                Chiudi
+                Cerrar
               </button>
             </div>
           )}

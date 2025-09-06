@@ -1,0 +1,37 @@
+{
+  "title": "Lo que dicen los clientes",
+  "testimonials": [
+    {
+      "name": "angela c.",
+      "gender": "female",
+      "title": "Jalea real verdadera",
+      "quote": "Me encantan las abejas y por eso decidí confiar en ellas para combatir mi baja energía. Al abrir el frasco inmediatamente sentí su dulce aroma y me alegré. Ya llevo algunos días tomándola y debo decir que la diferencia se nota. Estoy menos cansada. El producto está bien y no lo abandonaré fácilmente. Excelente envío y pequeñas cápsulas fáciles de tragar."
+    },
+    {
+      "name": "Gabriella Longega",
+      "gender": "male",
+      "title": "Excelente para mantenerse en forma",
+      "quote": "Producto bien empaquetado. Cápsulas fáciles de tragar. Lo uso constantemente para mejorar las defensas inmunitarias."
+    },
+    {
+      "name": "soul.food",
+      "gender": "female",
+      "title": "recomendada",
+      "quote": "Recomendada. Antes de comprar este producto tomé durante aproximadamente un año diariamente un suplemento con equinácea mucho más caro, desde hace unos 4 meses elegí este más económico y con solo equinácea. En los últimos 6/7 años me he contagiado de cada enfermedad de temporada (y no tengo hijos que yendo a la escuela puedan traer a casa gripes y resfriados varios). Este invierno lo pasé indemne. ¡Tengan paciencia! Al ser un producto natural necesita tiempo, y me refiero a varios meses"
+    },
+    {
+      "name": "wolf",
+      "gender": "male",
+      "title": "Equinácea de gran calidad",
+      "quote": "Las compro desde hace años y tomo una todas las mañanas. Producto excelente que me preserva mucho de las enfermedades estacionales. Muy buena relación calidad-precio. Muy recomendadas. A veces me he dejado convencer por promociones y descuentos pero siempre he vuelto atrás"
+    },
+    {
+      "name": "RICCARDO HEUSCH",
+      "gender": "male",
+      "title": "Producto de calidad",
+      "quote": "Excelente producto, muy buena calidad. Lo recomiendo sin dudarlo."
+    }
+  ]
+}
+
+
