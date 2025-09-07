@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 import OptimizedImage from './OptimizedImage';
 
-import { Star, ExternalLink } from 'lucide-react'; // Import Star and ExternalLink icons
+import { ExternalLink } from 'lucide-react'; // Import ExternalLink icon
 
 const Products = () => {
   const { t, i18n } = useTranslation('products');
@@ -13,12 +13,6 @@ const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('allProducts');
   const [filteredProducts, setFilteredProducts] = useState<any[]>([]);
 
-  // List of best seller product names
-  const bestSellerProducts = [
-    "Nutriota Alpha Lipoic Acid | 500 mg (180 Capsules)",
-    "Nutriota Propolis | 1000 mg (180 Tablets)",
-    "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)"
-  ];
 
   // Product data from JSON with ratings added
   const products = [
@@ -187,16 +181,6 @@ const Products = () => {
                           {product.category}
                         </span>
                       </div>
-                      
-                      {/* Best Seller Badge */}
-                      {bestSellerProducts.includes(product.name) && (
-                        <div className="absolute top-4 left-4">
-                          <span className="bg-[#0089CF] text-white px-2 py-1 rounded-full text-xs font-medium flex items-center gap-1">
-                            <Star size={12} className="fill-current" />
-                            {t('bestSeller')}
-                          </span>
-                        </div>
-                      )}
                     </div>
                   </Link>
                   
