@@ -10,7 +10,7 @@ const Products = () => {
   const { t, i18n } = useTranslation('products');
   const router = useRouter();
   const { search, category } = router.query;
-  const [selectedCategory, setSelectedCategory] = useState(t('allProducts'));
+  const [selectedCategory, setSelectedCategory] = useState('allProducts');
   const [filteredProducts, setFilteredProducts] = useState<any[]>([]);
 
   // List of best seller product names
@@ -54,31 +54,31 @@ const Products = () => {
     }
   ];
 
-  const categories = [t('allProducts'), t('minerals'), t('supplements')];
+  const categories = ['allProducts', 'minerals', 'supplements'];
 
   // Handle category filtering from URL params
   useEffect(() => {
     if (category) {
-      // Map URL category to translated category
+      // Map URL category to internal category key
       const categoryMap: { [key: string]: string } = {
-        'All Products': t('allProducts'),
-        'Minerals': t('minerals'),
-        'Supplements': t('supplements')
+        'All Products': 'allProducts',
+        'Minerals': 'minerals',
+        'Supplements': 'supplements'
       };
       
-      const translatedCategory = categoryMap[category as string];
-      if (translatedCategory) {
-        setSelectedCategory(translatedCategory);
+      const internalCategory = categoryMap[category as string];
+      if (internalCategory) {
+        setSelectedCategory(internalCategory);
       }
     }
-  }, [category, t]);
+  }, [category]);
 
   // Filter products based on selected category
   useEffect(() => {
-    if (selectedCategory === t('allProducts')) {
+    if (selectedCategory === 'allProducts') {
       setFilteredProducts(products);
     } else {
-      setFilteredProducts(products.filter(product => product.category === selectedCategory));
+      setFilteredProducts(products.filter(product => product.category === t(selectedCategory)));
     }
   }, [selectedCategory, t]);
 
@@ -89,16 +89,16 @@ const Products = () => {
 
   const handleCategoryClick = (category: string) => {
     setSelectedCategory(category);
-    if (category === t('allProducts')) {
+    if (category === 'allProducts') {
       router.push('/products');
     } else {
-      // Map translated category back to English for URL
+      // Map internal category key to English for URL
       const reverseCategoryMap: { [key: string]: string } = {
-        [t('allProducts')]: 'All Products',
-        [t('minerals')]: 'Minerals',
-        [t('vitamins')]: 'Vitamins',
-        [t('supplements')]: 'Supplements',
-        [t('herbalSupplements')]: 'Herbal Supplements'
+        'allProducts': 'All Products',
+        'minerals': 'Minerals',
+        'vitamins': 'Vitamins',
+        'supplements': 'Supplements',
+        'herbalSupplements': 'Herbal Supplements'
       };
       const englishCategory = reverseCategoryMap[category] || category;
       router.push(`/products?category=${encodeURIComponent(englishCategory)}`);
@@ -148,7 +148,7 @@ const Products = () => {
                         : 'text-gray-700 hover:bg-blue-50 hover:text-[#0089CF]'
                     }`}
                   >
-                    {category}
+                    {t(category)}
                   </button>
                 ))}
               </div>
@@ -159,12 +159,12 @@ const Products = () => {
           <div className="flex-1">
             <div className="mb-8">
               <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
-                {selectedCategory}
+                {t(selectedCategory)}
               </h1>
               <p className="text-sm lg:text-base text-gray-600">
-                {selectedCategory === t('allProducts') 
+                {selectedCategory === 'allProducts' 
                   ? t('showingAll', { count: filteredProducts.length })
-                  : t('showingCategory', { count: filteredProducts.length, category: selectedCategory })
+                  : t('showingCategory', { count: filteredProducts.length, category: t(selectedCategory) })
                 }
               </p>
             </div>
