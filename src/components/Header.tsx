@@ -98,7 +98,7 @@ const Header = () => {
       "id": 2,
       "category": t('products.supplements'),
       "name": "Nutriota Propolis | 1000 mg (180 Tablets)",
-      "price": "€16.99",
+      "price": "€17.79",
       "image": "https://m.media-amazon.com/images/I/615c8u9DpSL._AC_SX679_.jpg",
       "link": "https://www.amazon.es/dp/B09FFFSX3K"
     },
@@ -106,7 +106,7 @@ const Header = () => {
       "id": 3,
       "category": t('products.minerals'),
       "name": "Nutriota Chromium Picolinate | 250 mcg (365 Tablets)",
-      "price": "€16.99",
+      "price": "€23.79",
       "image": "https://m.media-amazon.com/images/I/616nEDc2B6L._AC_SX679_.jpg",
       "link": "https://www.amazon.es/dp/B0DCZJDCKH"
     }
@@ -114,7 +114,7 @@ const Header = () => {
 
   const carouselItems = [
     { id: 1, titleKey: "carousel.alphaLipoic.title", descriptionKey: "carousel.alphaLipoic.description", image: "/images/SpainSupplementHeader.jpg", productId: 1 },
-    { id: 2, titleKey: "carousel.propolis.title", descriptionKey: "carousel.propolis.description", image: "/images/SpainSupplementHeader.jpg", productId: 2 },
+    { id: 2, titleKey: "carousel.propolis.title", descriptionKey: "carousel.propolis.description", image: "/images/propolisSpain.jpg", productId: 2 },
     { id: 3, titleKey: "carousel.chromium.title", descriptionKey: "carousel.chromium.description", image: "/images/SpainMineralHeader.jpg", productId: 3 }
   ];
 
